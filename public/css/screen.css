@@ -1,0 +1,28 @@
+html {
+    font-size: 16px;
+    line-height: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(24, 24, 24, 0.95);
+    margin: 0;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #fffffe;
+    height: fit-content;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    column-gap: 1em;
+}
+
+.wrapper {
+    width: fit-content;
+    height: fit-content;
+}

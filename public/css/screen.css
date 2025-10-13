@@ -1,7 +1,13 @@
+:root {
+    --background-img-width: 100%;
+    --background-img-height: calc(var(--background-img-width) * 9/16);
+}
+
 html {
     font-size: 16px;
     line-height: 1em;
     font-family: Arial, Helvetica, sans-serif;
+    width: auto;
 }
 
 body {
@@ -22,7 +28,24 @@ body {
     column-gap: 1em;
 }
 
+.title_page {
+    position: relative;
+}
+
+.title_page__img {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.title_page__text {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+}
+
 .wrapper {
     width: fit-content;
     height: fit-content;
 }
+

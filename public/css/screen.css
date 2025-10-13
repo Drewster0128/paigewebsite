@@ -1,7 +1,4 @@
-:root {
-    --background-img-width: 100%;
-    --background-img-height: calc(var(--background-img-width) * 9/16);
-}
+@import url('https://fonts.googleapis.com/css2?family=Meddon&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 html {
     font-size: 16px;
@@ -25,7 +22,13 @@ body {
     padding-bottom: 1.5em;
     padding-left: 1em;
     padding-right: 1em;
-    column-gap: 1em;
+    column-gap: 2em;
+}
+
+.navigation__item {
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    color: rgba(24, 24, 24, 0.95);
 }
 
 .title_page {
@@ -42,6 +45,10 @@ body {
     position: absolute;
     z-index: 2;
     top: 0;
+    font-size: 6.856em;
+    line-height: 1em;
+    font-family: "Meddon", cursive;
+    color: #fffffe;
 }
 
 .wrapper {

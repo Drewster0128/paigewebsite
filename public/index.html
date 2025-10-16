@@ -9,9 +9,12 @@
     <body>
         <header>
             <nav class="navigation">
-                <a class="navigation__item" href="">About Me</a>
-                <a class="navigation__item" href="">Gallery</a>
-                <a class="navigation__item" href="">Contact</a>
+                <a class="navigation__item navigation__item--title navigation__item--invisible" href="">Paige Cook</a>
+                <div class="navigation__wrapper">
+                    <a class="navigation__item" href="">About Me</a>
+                    <a class="navigation__item" href="">Gallery</a>
+                    <a class="navigation__item" href="">Contact</a>
+                </div>
             </nav>
         </header>
         <main>
@@ -23,13 +26,19 @@
                 <h2 class="works__title">Newest Works</h2>
                 <ul class="wrapper wrapper--works">
                     <li class="works__img__wrapper">
-                        <img class="works__img" src="/images/4x3/clock.JPG">
+                        <a class="img__link" href="clock/">
+                            <img class="works__img" src="/images/4x3/clock.JPG">
+                        </a>
                     </li>
                     <li class="works__img__wrapper">
-                        <img class="works__img" src="/images/4x3/rose.JPG">
+                        <a class="img__link" href="rose/">
+                            <img class="works__img" src="/images/4x3/rose.JPG">
+                        </a>
                     </li>
                     <li class="works__img__wrapper">
-                        <img class="works__img" src="/images/4x3/snowy_night.JPG">
+                        <a class="img__link" href="snowy_night/">
+                            <img class="works__img" src="/images/4x3/snowy_night.JPG">
+                        </a>
                     </li>
                 </ul>
             </section>

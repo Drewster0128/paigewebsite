@@ -14,15 +14,22 @@ body {
 }
 
 .navigation {
-    display: flex;
+    /*display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-end; */
     background-color: #fffffe;
     height: fit-content;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
     padding-left: 1em;
     padding-right: 1em;
+    
+}
+
+.navigation__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     column-gap: 2em;
 }
 
@@ -30,6 +37,21 @@ body {
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
     color: rgba(24, 24, 24, 0.95);
+}
+
+.navigation__item--title {
+    font-family: "Meddon", cursive;
+    font-size: 1.618em;
+    line-height: 1em;
+    float: left;
+}
+
+.navigation__item--invisible {
+    display: none;
+}
+
+.navigation__item--visible {
+    display: block;
 }
 
 .title_page {

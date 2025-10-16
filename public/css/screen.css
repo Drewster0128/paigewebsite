@@ -27,6 +27,20 @@ body {
     grid-row-end: 3;
 }
 
+.grid_wrapper__item--details {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.grid_wrapper__item--paragraph {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
 .main {
     box-sizing: border-box;
     padding-left: 2em;
@@ -78,6 +92,22 @@ body {
 
 .navigation__item--visible {
     display: block;
+}
+
+.static_page__title {
+    font-family: "Winky Rough", sans-serif;
+    font-weight: 400;
+    font-size: 4.235em;
+    color: #fffffe;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.static_page__paragraph {
+    font-size: 1.618em;
+    line-height: 1em;
+    color: #fffffe;
+    opacity: 80%;
 }
 
 .title_page {

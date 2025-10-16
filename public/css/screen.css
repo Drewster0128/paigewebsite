@@ -58,7 +58,7 @@ body {
     margin-left: 2em;
     margin-right: 2em;
     position: relative;
-    bottom: 4.235em;
+    bottom: 11.09em;
     z-index: 2;
     padding: 0;
 }
@@ -90,10 +90,16 @@ body {
 
 .works__img {
     width: 100%;
-    opacity: 95%;
     border-radius: 20px;
 }
 
 .works__img__wrapper {
+    position: relative;
     width: 20%;
+    opacity: 85%;
+}
+
+.works__img__wrapper:hover {
+    bottom: 10px;
+    opacity: 100%;
 }

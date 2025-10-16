@@ -13,6 +13,32 @@ body {
     margin: 0;
 }
 
+.grid_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.grid_wrapper__item--img {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.main {
+    box-sizing: border-box;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.main__img {
+    width: 100%;
+}
+
 .navigation {
     /*display: flex;
     flex-direction: row;
